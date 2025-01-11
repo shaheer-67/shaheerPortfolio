@@ -22,6 +22,15 @@ function closemenu() {
   sidemenu.style.right = "-200px";
 }
 
+// Mobile menu ko close karne ke liye, jab kisi link par click ho
+var menuLinks = document.querySelectorAll("#side-menu a");
+
+menuLinks.forEach(function (link) {
+  link.addEventListener("click", function () {
+    closemenu(); // Link click karte hi menu band ho jayega
+  });
+});
+
 //conatct me Form //
 
 // Initialize EmailJS with your Public Key
