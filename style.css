@@ -145,6 +145,12 @@ nav ul li a:hover::after {
   background-color: #121212;
   color: #fff;
 }
+.project-4-img{
+  height: 143px;
+}
+.project-3-img{
+  height: 143px;
+}
 
 .section-header {
   text-align: center;
